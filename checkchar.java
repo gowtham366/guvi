@@ -5,8 +5,8 @@ class checkchar {
 		Scanner in=new Scanner(System.in);
 		char a=in.next().charAt(0);
 		if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
-		    System.out.print("vowel");
+		    System.out.print("Vowel");
 		else	
-		    System.out.print("consonent");
+		    System.out.print("Consonent");
 	}
 }
