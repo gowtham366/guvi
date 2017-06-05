@@ -4,12 +4,8 @@ class Natural {
 		Scanner in=new Scanner(System.in);
 		int n=in.nextInt();
 		int sum=0;
-		if(n==1)
-		    System.out.print("0");
-		else{
-		for(int i=1;i<n;i++)
-		    sum+=i;
-		}
+		n=n-1;
+		sum=n*(n+1)/2;
 		System.out.print(sum);
 	}
 }
