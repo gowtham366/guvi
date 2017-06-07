@@ -9,7 +9,6 @@ public class h8{
         int arr[]=new int[size];
         for(int i=0;i<size;i++)
             arr[i]=in.nextInt();
-        Arrays.sort(arr);
         for(int i:arr) 
         {
             for(int j:arr)
