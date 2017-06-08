@@ -15,12 +15,7 @@ class Happy{
                 sum+=n;
             }
             n=sum;
-            if(n>10000)
-                break;
         }
-        if(n==1)
-        System.out.print("True");
-        else
-        System.out.print("");
+        System.out.print("Happy number");
     }
 }
