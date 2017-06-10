@@ -6,7 +6,6 @@ class Prime{
     int ct=in.nextInt();
     for(int j=2;j<=ct;j++)
     {
-    //int n=j;
     int m=j/2;    
     for(int i=2;i<=m;i++)
     {   
