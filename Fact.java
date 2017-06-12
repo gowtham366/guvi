@@ -1,5 +1,5 @@
 import java.util.*;
-class Fact{  
+class Facto{  
  public static void main(String args[]){  
     Scanner in=new Scanner(System.in);
     int n=in.nextInt();
