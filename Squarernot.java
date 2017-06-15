@@ -17,6 +17,6 @@ class Squarernot{
         if(chck[0]==chck[2] || chck[1]==chck[3])
             System.out.println("Points form a square");
         else
-            System.out.println("points don't form a square");
+            System.out.println("Points don't form a square");
     }
 }
