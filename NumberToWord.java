@@ -4,7 +4,7 @@ public class NumberToWord {
        // TODO Auto-generated method stub
 		 Scanner scanner = new Scanner(System.in);
 	        String[] tensNames = {""," ten"," twenty"," thirty"," forty"," fifty"," sixty"," seventy"," eighty"," ninety"};
-	        String[] numNames = {""," one"," two"," three"," four","five"," six"," seven"," eight"," nine"," ten"," eleven",
+	        String[] numNames = {""," one"," two"," three"," four"," five"," six"," seven"," eight"," nine"," ten"," eleven",
 	                " twelve"," thirteen"," fourteen"," fifteen"," sixteen"," seventeen"," eighteen"," nineteen"};
 	        System.out.println("Enter the number to be converted to Words : ");
 	        int number = scanner.nextInt();
@@ -25,7 +25,7 @@ public class NumberToWord {
 	                }
 	                
 	            }
-	            System.out.println(result.toUpperCase());
+	            System.out.println(result.toUpperCase().trim());
 	        }
 	        else
 	        {
