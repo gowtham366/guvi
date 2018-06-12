@@ -20,7 +20,7 @@ public class NumberToWord {
                 number /= 10;
                 result = numNames[number] + " hundred" + result;
             }
-            System.out.println(result).toUpperCase();
+            System.out.println(result.toUpperCase());
         }
         else
         {
